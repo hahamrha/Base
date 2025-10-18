@@ -12,7 +12,7 @@ contract UnburnableToken {
     uint256 public totalClaimed; // Total number of tokens claimed
     mapping(address => bool) private claimed; // Mapping to track whether an address has claimed tokens
 
-    // Custom errors
+    // Custom errorsfff
     error TokensClaimed(); // Error for attempting to claim tokens again
     error AllTokensClaimed(); // Error for attempting to claim tokens when all are already claimed
     error UnsafeTransfer(address _to); // Error for unsafe token transfer
